@@ -49,7 +49,7 @@ namespace WinAuth
     /// <summary>
     /// Window title for this application
     /// </summary>
-    public const string APPLICATION_TITLE = "WinAuth";
+    public const string APPLICATION_TITLE = "WinAuth by Engie";
 
     /// <summary>
     /// Winuath email address used as sender to backup emails
@@ -172,14 +172,14 @@ namespace WinAuth
 
 		public static List<RegisteredAuthenticator> REGISTERED_AUTHENTICATORS = new List<RegisteredAuthenticator>
 		{
-			new RegisteredAuthenticator {Name="Authenticator", AuthenticatorType=RegisteredAuthenticator.AuthenticatorTypes.RFC6238_TIME, Icon="WinAuthIcon.png"},
-			null,
-			new RegisteredAuthenticator {Name="Google", AuthenticatorType=RegisteredAuthenticator.AuthenticatorTypes.Google, Icon="GoogleIcon.png"},
-			new RegisteredAuthenticator {Name="Microsoft", AuthenticatorType=RegisteredAuthenticator.AuthenticatorTypes.Microsoft, Icon="MicrosoftAuthenticatorIcon.png"},
-			new RegisteredAuthenticator {Name="Battle.Net", AuthenticatorType=RegisteredAuthenticator.AuthenticatorTypes.BattleNet, Icon="BattleNetAuthenticatorIcon.png"},
-			new RegisteredAuthenticator {Name="Guild Wars 2", AuthenticatorType=RegisteredAuthenticator.AuthenticatorTypes.GuildWars, Icon="GuildWarsAuthenticatorIcon.png"},
-			new RegisteredAuthenticator {Name="Glyph / Trion", AuthenticatorType=RegisteredAuthenticator.AuthenticatorTypes.Trion, Icon="GlyphIcon.png"},
-			new RegisteredAuthenticator {Name="Steam", AuthenticatorType=RegisteredAuthenticator.AuthenticatorTypes.Steam, Icon="SteamAuthenticatorIcon.png"},
+			//new RegisteredAuthenticator {Name="Authenticator", AuthenticatorType=RegisteredAuthenticator.AuthenticatorTypes.RFC6238_TIME, Icon="WinAuthIcon.png"},
+			//null,
+			//new RegisteredAuthenticator {Name="Google", AuthenticatorType=RegisteredAuthenticator.AuthenticatorTypes.Google, Icon="GoogleIcon.png"},
+			//new RegisteredAuthenticator {Name="Microsoft", AuthenticatorType=RegisteredAuthenticator.AuthenticatorTypes.Microsoft, Icon="MicrosoftAuthenticatorIcon.png"},
+			//new RegisteredAuthenticator {Name="Battle.Net", AuthenticatorType=RegisteredAuthenticator.AuthenticatorTypes.BattleNet, Icon="BattleNetAuthenticatorIcon.png"},
+			//new RegisteredAuthenticator {Name="Guild Wars 2", AuthenticatorType=RegisteredAuthenticator.AuthenticatorTypes.GuildWars, Icon="GuildWarsAuthenticatorIcon.png"},
+			//new RegisteredAuthenticator {Name="Glyph / Trion", AuthenticatorType=RegisteredAuthenticator.AuthenticatorTypes.Trion, Icon="GlyphIcon.png"},
+			//new RegisteredAuthenticator {Name="Steam", AuthenticatorType=RegisteredAuthenticator.AuthenticatorTypes.Steam, Icon="SteamAuthenticatorIcon.png"},
 			new RegisteredAuthenticator {Name="Okta Verify", AuthenticatorType=RegisteredAuthenticator.AuthenticatorTypes.OktaVerify, Icon="OktaVerifyAuthenticatorIcon.png"}
 		};
 
